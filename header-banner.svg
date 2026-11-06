@@ -1,111 +1,227 @@
-<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Shahid Akram - Level 99 Performance Media Architect & Systems Lead">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090D16" />
-      <stop offset="50%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#050811" />
+    <!-- Night Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#060814" />
+      <stop offset="55%" stop-color="#11162E" />
+      <stop offset="85%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#2E1065" />
     </linearGradient>
+
+    <!-- Gold Text Gradient -->
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- Cyan Glow Gradient -->
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+
+    <!-- Ground Dither Gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#171138" />
+      <stop offset="100%" stop-color="#09061A" />
+    </linearGradient>
+
+    <!-- Bonfire Light Glow -->
+    <radialGradient id="fireLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#EF4444" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
     
-    <linearGradient id="amberGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#FBBF24" />
-    </linearGradient>
-
-    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.0" />
-    </linearGradient>
-
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.8" />
-    </linearGradient>
-
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+    <filter id="pixelGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <!-- Subtle Tech Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25" />
-      <circle cx="0" cy="0" r="1" fill="#475569" fill-opacity="0.3" />
-    </pattern>
+    <style>
+      .retro-pixel {
+        font-family: 'Courier New', 'Lucida Console', Monaco, monospace;
+        letter-spacing: 2px;
+      }
+      .arcade-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 'Impact', Arial Black, sans-serif;
+        font-weight: 900;
+        letter-spacing: 3px;
+      }
+    </style>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="900" height="260" rx="16" fill="url(#bgGrad)" />
-  <rect width="900" height="260" rx="16" fill="url(#grid)" />
+  <!-- Sky Canvas -->
+  <rect width="1200" height="440" rx="14" fill="url(#skyGrad)" />
 
-  <!-- Ambient Light Orbs -->
-  <circle cx="820" cy="40" r="160" fill="#F59E0B" fill-opacity="0.08" filter="url(#glow)" />
-  <circle cx="80" cy="220" r="140" fill="#38BDF8" fill-opacity="0.07" filter="url(#glow)" />
-
-  <!-- Outer Border -->
-  <rect x="1" y="1" width="898" height="258" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
-
-  <!-- Left Monogram Emblem -->
-  <g transform="translate(50, 48)">
-    <!-- Hexagon Frame -->
-    <rect x="0" y="0" width="76" height="76" rx="20" fill="#1E293B" stroke="#475569" stroke-width="1.5" />
-    <rect x="3" y="3" width="70" height="70" rx="17" fill="none" stroke="url(#amberGold)" stroke-width="1.5" stroke-dasharray="4 2" />
+  <!-- Pixel Stars (Handcrafted constellations) -->
+  <g fill="#FFFFFF">
+    <!-- Bright Cross Stars -->
+    <path d="M120 40h4v12h-4z M116 44h12v4h-12z" fill="#FDE047" opacity="0.9" />
+    <path d="M380 70h3v9h-3z M377 73h9v3h-9z" fill="#38BDF8" opacity="0.85" />
+    <path d="M720 35h4v12h-4z M716 39h12v4h-12z" fill="#FDE047" opacity="0.8" />
+    <path d="M1020 65h3v9h-3z M1017 68h9v3h-9z" fill="#A78BFA" opacity="0.9" />
+    <path d="M910 110h3v7h-3z M908 112h7v3h-7z" fill="#FDE047" opacity="0.75" />
+    <path d="M220 120h3v7h-3z M218 122h7v3h-7z" fill="#FFFFFF" opacity="0.8" />
     
-    <!-- Monogram SA -->
-    <text x="38" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" fill="url(#amberGold)" text-anchor="middle" letter-spacing="1">SA</text>
-    
-    <!-- Status Dot -->
-    <circle cx="64" cy="14" r="5" fill="#10B981" />
-    <circle cx="64" cy="14" r="8" fill="#10B981" fill-opacity="0.4" />
+    <!-- Micro Pixel Stars -->
+    <rect x="50" y="80" width="3" height="3" opacity="0.6" />
+    <rect x="90" y="140" width="3" height="3" opacity="0.4" />
+    <rect x="180" y="50" width="3" height="3" opacity="0.7" />
+    <rect x="290" y="90" width="4" height="4" fill="#38BDF8" opacity="0.6" />
+    <rect x="460" y="45" width="3" height="3" opacity="0.5" />
+    <rect x="540" y="100" width="4" height="4" fill="#FDE047" opacity="0.6" />
+    <rect x="630" y="60" width="3" height="3" opacity="0.7" />
+    <rect x="800" y="85" width="4" height="4" opacity="0.5" />
+    <rect x="860" y="40" width="3" height="3" fill="#A78BFA" opacity="0.8" />
+    <rect x="980" y="130" width="3" height="3" opacity="0.5" />
+    <rect x="1090" y="80" width="4" height="4" opacity="0.7" />
+    <rect x="1140" y="45" width="3" height="3" fill="#38BDF8" opacity="0.8" />
+    <rect x="1130" y="150" width="3" height="3" opacity="0.4" />
   </g>
 
-  <!-- Title & Details -->
-  <g transform="translate(150, 62)">
-    <!-- Tag Pill -->
-    <rect x="0" y="0" width="280" height="24" rx="12" fill="#F59E0B" fill-opacity="0.12" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1" />
-    <text x="140" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="800" fill="#FBBF24" text-anchor="middle" letter-spacing="1.5">PAID ADS ARCHITECT · SYSTEMS LEAD</text>
+  <!-- Distant Mountain Silhouettes -->
+  <polygon points="0,340 90,280 210,340" fill="#151238" opacity="0.6" />
+  <polygon points="160,340 310,240 450,340" fill="#1C1848" opacity="0.5" />
+  <polygon points="400,340 540,270 660,340" fill="#16133B" opacity="0.7" />
+  <polygon points="760,340 920,230 1080,340" fill="#1D174F" opacity="0.6" />
+  <polygon points="990,340 1110,260 1200,340" fill="#16123D" opacity="0.7" />
 
-    <!-- Main Name -->
-    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">SHAHID AKRAM</text>
+  <!-- Pixel Horizon Ground -->
+  <rect x="0" y="325" width="1200" height="115" rx="0" fill="url(#groundGrad)" />
+  <!-- Ground Pixel Edge Line -->
+  <rect x="0" y="322" width="1200" height="4" fill="#4C1D95" opacity="0.8" />
+  <rect x="0" y="326" width="1200" height="2" fill="#8B5CF6" opacity="0.5" />
 
-    <!-- Subtitle -->
-    <text x="0" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94A3B8">
-      Scaling brands with high-converting paid funnels, automated systems &amp; web apps.
+  <!-- Bonfire Glow Radius in Center -->
+  <ellipse cx="600" cy="315" rx="160" ry="60" fill="url(#fireLight)" />
+
+  <!-- ==================== CENTER HERO CONTENT ==================== -->
+  
+  <!-- Level 99 Badge -->
+  <g transform="translate(600, 52)">
+    <rect x="-190" y="0" width="380" height="28" rx="6" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5" />
+    <circle cx="-168" cy="14" r="5" fill="#10B981" />
+    <circle cx="-168" cy="14" r="8" fill="#10B981" opacity="0.35" />
+    <text x="5" y="19" font-family="'Courier New', monospace" font-size="12" font-weight="900" fill="#FBBF24" text-anchor="middle" letter-spacing="2">
+      ⚔️ LV 99 · AI MARKETING &amp; SYSTEMS ARCHITECT
     </text>
   </g>
 
-  <!-- Bottom Metric Pills -->
-  <g transform="translate(50, 182)">
-    <!-- Pill 1: Meta Ads -->
-    <g transform="translate(0, 0)">
-      <rect width="180" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-      <circle cx="22" cy="21" r="5" fill="#3B82F6" />
-      <text x="36" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="0.5">ACQUISITION</text>
-      <text x="36" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#F1F5F9">Meta &amp; ROAS Scaling</text>
+  <!-- Big Hero Title: SHAHID AKRAM (Retro 3D Arcade Layering) -->
+  <g transform="translate(600, 140)">
+    <!-- 3D Extrusion Shadows -->
+    <text x="4" y="4" class="arcade-title" font-size="62" fill="#000000" text-anchor="middle" opacity="0.8">SHAHID AKRAM</text>
+    <text x="3" y="3" class="arcade-title" font-size="62" fill="#451A03" text-anchor="middle">SHAHID AKRAM</text>
+    <text x="2" y="2" class="arcade-title" font-size="62" fill="#B45309" text-anchor="middle">SHAHID AKRAM</text>
+    <!-- Top Face Gradient -->
+    <text x="0" y="0" class="arcade-title" font-size="62" fill="url(#goldText)" text-anchor="middle">SHAHID AKRAM</text>
+  </g>
+
+  <!-- Subtitle Tagline -->
+  <g transform="translate(600, 185)">
+    <text x="0" y="0" class="retro-pixel" font-size="14" font-weight="700" fill="#E2E8F0" text-anchor="middle">
+      Scaling Brands With High-ROAS Funnels &amp; Agentic Systems
+    </text>
+    <text x="0" y="24" class="retro-pixel" font-size="12" font-weight="400" fill="#94A3B8" text-anchor="middle">
+      Maker of BuildEstimate Pro · Meta Andromeda Scaling · Python Automations
+    </text>
+  </g>
+
+  <!-- Retro Pixel RPG Character Scene (Center Bottom) -->
+  <g transform="translate(600, 260)">
+    <!-- 8-Bit Pixel Knight (Left of Fire) -->
+    <g transform="translate(-110, -5)">
+      <!-- Shield -->
+      <rect x="-14" y="20" width="10" height="26" fill="#475569" rx="1" />
+      <rect x="-12" y="24" width="6" height="18" fill="#F59E0B" />
+      <!-- Legs -->
+      <rect x="0" y="44" width="7" height="18" fill="#334155" />
+      <rect x="11" y="44" width="7" height="18" fill="#334155" />
+      <!-- Boots -->
+      <rect x="-2" y="58" width="10" height="6" fill="#0F172A" />
+      <rect x="10" y="58" width="10" height="6" fill="#0F172A" />
+      <!-- Body & Armor -->
+      <rect x="-2" y="18" width="22" height="28" fill="#1E293B" rx="2" />
+      <rect x="1" y="22" width="16" height="20" fill="#38BDF8" opacity="0.8" />
+      <rect x="4" y="25" width="10" height="14" fill="#0284C7" />
+      <!-- Cape -->
+      <polygon points="-6,20 -12,56 -2,56" fill="#DC2626" />
+      <!-- Helmet -->
+      <rect x="-3" y="0" width="24" height="20" fill="#475569" rx="3" />
+      <rect x="-1" y="2" width="20" height="16" fill="#64748B" rx="2" />
+      <!-- Visor Glow -->
+      <rect x="2" y="8" width="14" height="4" fill="#FDE047" />
+      <!-- Sword (Held High) -->
+      <rect x="23" y="6" width="4" height="34" fill="#E2E8F0" />
+      <rect x="19" y="32" width="12" height="4" fill="#F59E0B" />
+      <rect x="23" y="36" width="4" height="10" fill="#78350F" />
     </g>
 
-    <!-- Pill 2: Operations & Estimating -->
-    <g transform="translate(195, 0)">
-      <rect width="200" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-      <circle cx="22" cy="21" r="5" fill="#F59E0B" />
-      <text x="36" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="0.5">CONSTRUCTION TECH</text>
-      <text x="36" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#F1F5F9">BuildEstimate Suite</text>
+    <!-- The 8-Bit Bonfire / Sword in Stone (Center) -->
+    <g transform="translate(-18, 0)">
+      <!-- Stone Base -->
+      <rect x="-10" y="42" width="56" height="20" rx="4" fill="#334155" />
+      <rect x="-6" y="45" width="48" height="14" rx="2" fill="#475569" />
+      
+      <!-- Fire Logs -->
+      <polygon points="6,50 30,50 24,42 12,42" fill="#78350F" />
+      <polygon points="2,48 18,36 24,40 10,52" fill="#92400E" />
+
+      <!-- Pixel Flames (Multi-Layer Pixel Art Fire) -->
+      <!-- Red Base Fire -->
+      <polygon points="18,44 6,30 16,14 26,24 34,16 30,44" fill="#DC2626" />
+      <!-- Orange Mid Fire -->
+      <polygon points="18,42 10,32 16,20 22,28 26,22 26,42" fill="#EA580C" />
+      <!-- Gold Core Fire -->
+      <polygon points="18,40 13,34 18,26 21,30 23,28 22,40" fill="#FDE047" filter="url(#pixelGlow)" />
+      <!-- White Hot Center -->
+      <polygon points="18,38 15,35 18,30 20,38" fill="#FFFFFF" />
+
+      <!-- Floating Embers -->
+      <rect x="12" y="6" width="3" height="3" fill="#FDE047" />
+      <rect x="24" y="8" width="2" height="2" fill="#EA580C" />
+      <rect x="16" y="-4" width="3" height="3" fill="#F59E0B" />
+      <rect x="22" y="-12" width="2" height="2" fill="#FDE047" />
     </g>
 
-    <!-- Pill 3: Automation -->
-    <g transform="translate(410, 0)">
-      <rect width="190" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-      <circle cx="22" cy="21" r="5" fill="#10B981" />
-      <text x="36" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="0.5">DEV &amp; SYSTEMS</text>
-      <text x="36" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#F1F5F9">PWA · Python · APIs</text>
-    </g>
-
-    <!-- Pill 4: Status -->
-    <g transform="translate(615, 0)">
-      <rect width="185" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-      <circle cx="22" cy="21" r="5" fill="#8B5CF6" />
-      <text x="36" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="0.5">AVAILABILITY</text>
-      <text x="36" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#F1F5F9">Open for Contracts</text>
+    <!-- 8-Bit Mascot Companion (Right of Fire - Retro Pet) -->
+    <g transform="translate(68, 12)">
+      <!-- Robot/Pet Body -->
+      <rect x="0" y="10" width="28" height="26" rx="6" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5" />
+      <!-- Pet Screen / Face -->
+      <rect x="4" y="14" width="20" height="16" rx="3" fill="#0F172A" />
+      <!-- Happy Pixel Eyes -->
+      <rect x="8" y="19" width="3" height="6" fill="#38BDF8" />
+      <rect x="17" y="19" width="3" height="6" fill="#38BDF8" />
+      <rect x="11" y="24" width="6" height="2" fill="#38BDF8" />
+      <!-- Feet -->
+      <rect x="4" y="36" width="6" height="6" fill="#475569" rx="1" />
+      <rect x="18" y="36" width="6" height="6" fill="#475569" rx="1" />
+      <!-- Antenna -->
+      <rect x="13" y="2" width="2" height="8" fill="#94A3B8" />
+      <circle cx="14" cy="2" r="3" fill="#F59E0B" />
     </g>
   </g>
+
+  <!-- Retro Action Prompt: "INITIALIZE CAMPAIGN" (Center Bottom Button) -->
+  <g transform="translate(600, 362)">
+    <rect x="-160" y="0" width="320" height="38" rx="8" fill="#F59E0B" stroke="#FDE047" stroke-width="2" />
+    <!-- 3D Shadow Line Inside Button -->
+    <rect x="-158" y="34" width="316" height="3" fill="#B45309" />
+    <text x="0" y="24" class="arcade-title" font-size="14" font-weight="900" fill="#0F172A" text-anchor="middle" letter-spacing="2">
+      ⚡ ENTER THE CAMPAIGN · BYSHAHID.VERCEL.APP
+    </text>
+  </g>
+
+  <!-- Bottom HUD Stats Bar -->
+  <g transform="translate(600, 420)">
+    <text x="0" y="0" class="retro-pixel" font-size="10.5" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="1.5">
+      HP: 100/100 · MP: 999/999 · QUEST: PERFORMANCE ACQUISITION &amp; OPERATIONAL EXCELLENCE
+    </text>
+  </g>
+
+  <!-- Outer Frame Border -->
+  <rect x="1" y="1" width="1198" height="438" rx="13" fill="none" stroke="#475569" stroke-width="1.5" stroke-opacity="0.4" />
 </svg>
