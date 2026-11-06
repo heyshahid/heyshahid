@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header-banner.svg" alt="Shahid Akram - Level 99 Performance Media Architect & Systems Lead" width="100%" />
+  <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/header-banner.svg" alt="Shahid Akram - Level 99 Performance Media Architect & Systems Lead" width="100%" />
 </div>
 
 <div align="center">
@@ -76,9 +76,7 @@ Operations & Project Management:
 ### 📊 GitHub Activity & Level Progress
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=heyshahid&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060814&title_color=F59E0B&text_color=94A3B8&icon_color=38BDF8" alt="Shahid Akram GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyshahid&layout=compact&theme=tokyonight&hide_border=true&bg_color=060814&title_color=F59E0B&text_color=94A3B8" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=heyshahid&theme=tokyonight&background=060814&border=334155&fire=F59E0B&ring=F59E0B&currStreakLabel=F59E0B" alt="Shahid Akram GitHub Streak" />
 </div>
 
 ---
