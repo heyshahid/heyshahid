@@ -17,15 +17,15 @@
 ### 🏛️ Executive Positioning
 
 > **Positioning Architecture · Conversion Systems · Outbound Pipelines**  
-> I engineer performance acquisition funnels and build custom web applications that streamline high-ticket business operations. Rather than relying on fragile spreadsheets, I build resilient systems that track media spend, calculate project takeoffs, and generate predictable pipeline growth.
+> I engineer performance acquisition funnels and build custom web applications that eliminate operational bottlenecks. Rather than relying on fragile spreadsheets that break in the field, I develop purpose-built software that tracks paid media spend, calculates material takeoffs, and generates predictable revenue.
 
-- 🎯 **Acquisition Architecture:** Performance media scaling, Meta Ads, Andromeda scaling models, and funnel CRO.
-- ⚙️ **Operational Software:** Mobile-first Progressive Web Apps (PWAs), serverless automation & Python tooling.
-- 🌐 **Global Reach:** Serving brands, agencies, and general contractors across the US, UK, UAE, and APAC.
+- 🎯 **Acquisition Architecture:** Performance media scaling, Meta Ads, Andromeda machine learning scaling, and funnel CRO.
+- ⚙️ **Operational Software:** Mobile-first Progressive Web Apps (PWAs), zero-dependency client tools & Python automations.
+- 🌐 **Global Reach:** Serving e-commerce brands, agencies, and general contractors across the US, UK, UAE, and APAC.
 
 ---
 
-### 🛠️ Featured Production Systems & Open-Source Tools
+### 🛠️ Featured Production Web Applications
 
 <table>
   <tr>
@@ -44,20 +44,25 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🌐 <a href="https://byshahid.vercel.app/">Shahid Akram – Agency Portfolio</a></h3>
-      <p><em>Executive Portfolio &amp; Direct Acquisition Engine</em></p>
-      <p>High-speed, responsive agency portfolio presenting growth frameworks, published newsletters, paid ad case studies, and client delivery workflows.</p>
+      <h3>🚀 <a href="https://heyshahid.github.io/meta-andromeda-calculator/">Meta Andromeda ROAS Calculator</a></h3>
+      <p><em>Precision Break-Even ROAS, Max CAC &amp; Ad Scaling Engine (PWA)</em></p>
+      <p>An installable web app for media buyers &amp; e-commerce founders to calculate true unit economics, avoid Meta algorithm learning phase resets, and model safe daily budget growth.</p>
       <ul>
-        <li><strong>Performance Stack:</strong> Pure modern responsive architecture.</li>
-        <li><strong>Content Syndication:</strong> Integrated with Substack &amp; Medium publications.</li>
-        <li><strong>Conversion Focus:</strong> Streamlined consultation &amp; booking funnels.</li>
+        <li><strong>True Unit Economics:</strong> Net margins factoring COGS, shipping, payment fees &amp; returns.</li>
+        <li><strong>Andromeda Scaling Engine:</strong> Safe +15% to +20% compounding steps with 70/20/10 split.</li>
+        <li><strong>1-Page Media Plan PDF:</strong> Client-ready executive audit &amp; target profit roadmap.</li>
       </ul>
       <p>
-        <a href="https://byshahid.vercel.app/"><strong>🌐 Visit Portfolio Website</strong></a>
+        <a href="https://heyshahid.github.io/meta-andromeda-calculator/"><strong>🚀 Launch Live Web App</strong></a> &nbsp;|&nbsp;
+        <a href="https://github.com/heyshahid/meta-andromeda-calculator"><strong>📂 GitHub Repository</strong></a>
       </p>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <p><strong>Looking for my agency case studies and full portfolio?</strong> &nbsp; 👉 &nbsp; <a href="https://byshahid.vercel.app/"><strong>Visit byshahid.vercel.app</strong></a></p>
+</div>
 
 ---
 
@@ -68,7 +73,7 @@ Positioning & Paid Acquisition:
   - Meta Ads Manager (Facebook & Instagram)
   - Andromeda Media Scaling & Break-Even Modeling
   - Funnel Conversion Rate Optimization (CRO)
-  - Creative Direction & Performance Copywriting
+  - Creative Strategy & Performance Copywriting
 
 Web & System Engineering:
   - Modern HTML5, Responsive UI, Tailwind CSS
