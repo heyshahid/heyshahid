@@ -15,23 +15,26 @@
 
 ---
 
-### 🏛️ Executive Positioning
+### Executive Positioning
 
 > **Positioning Architecture · Conversion Systems · Outbound Pipelines**  
 > I engineer performance acquisition funnels and build custom web applications that eliminate operational bottlenecks. Rather than relying on fragile spreadsheets that break in the field, I develop purpose-built software that tracks paid media spend, calculates material takeoffs, and generates predictable revenue.
 
-- 🎯 **Acquisition Architecture:** Performance media scaling, Meta Ads, Andromeda machine learning scaling, and funnel CRO.
-- ⚙️ **Operational Software:** Mobile-first Progressive Web Apps (PWAs), zero-dependency client tools & Python automations.
-- 🌐 **Global Reach:** Serving e-commerce brands, agencies, and general contractors across the US, UK, UAE, and APAC.
+- **Acquisition Architecture:** Performance media scaling, Meta Ads, Andromeda machine learning scaling, and funnel CRO.
+- **Operational Software:** Mobile-first Progressive Web Apps (PWAs), zero-dependency client tools & Python automations.
+- **Global Reach:** Serving e-commerce brands, agencies, and general contractors across the US, UK, UAE, and APAC.
 
 ---
 
-### 🛠️ Featured Production Web Applications
+### Featured Production Web Applications
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏗️ <a href="https://heyshahid.github.io/buildestimate-app/">BuildEstimate Pro</a></h3>
+      <h3>
+        <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/buildestimate-logo.png" width="30" height="30" align="absmiddle" alt="BuildEstimate Logo" />
+        <a href="https://heyshahid.github.io/buildestimate-app/">BuildEstimate Pro</a>
+      </h3>
       <p><em>Mobile-First Construction Material Takeoff &amp; Contractor Bid Suite (PWA)</em></p>
       <p>An installable web application engineered for General Contractors, Project Managers, and Construction VAs to calculate on-site material takeoffs and export formal 1-page PDF proposals.</p>
       <ul>
@@ -40,12 +43,15 @@
         <li><strong>1-Page Bid Proposal:</strong> Official client-ready PDF quote with signature block.</li>
       </ul>
       <p>
-        <a href="https://heyshahid.github.io/buildestimate-app/"><strong>🚀 Launch Live Web App</strong></a> &nbsp;|&nbsp;
-        <a href="https://github.com/heyshahid/buildestimate-app"><strong>📂 GitHub Repository</strong></a>
+        <a href="https://heyshahid.github.io/buildestimate-app/"><strong>Launch Live Web App</strong></a> &nbsp;|&nbsp;
+        <a href="https://github.com/heyshahid/buildestimate-app"><strong>GitHub Repository</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚀 <a href="https://heyshahid.github.io/meta-andromeda-calculator/">Meta Andromeda ROAS Calculator</a></h3>
+      <h3>
+        <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/andromeda-logo.png" width="30" height="30" align="absmiddle" alt="Andromeda ROAS Logo" />
+        <a href="https://heyshahid.github.io/meta-andromeda-calculator/">Meta Andromeda ROAS Calculator</a>
+      </h3>
       <p><em>Precision Break-Even ROAS, Max CAC &amp; Ad Scaling Engine (PWA)</em></p>
       <p>An installable web app for media buyers &amp; e-commerce founders to calculate true unit economics, avoid Meta algorithm learning phase resets, and model safe daily budget growth.</p>
       <ul>
@@ -54,20 +60,20 @@
         <li><strong>1-Page Media Plan PDF:</strong> Client-ready executive audit &amp; target profit roadmap.</li>
       </ul>
       <p>
-        <a href="https://heyshahid.github.io/meta-andromeda-calculator/"><strong>🚀 Launch Live Web App</strong></a> &nbsp;|&nbsp;
-        <a href="https://github.com/heyshahid/meta-andromeda-calculator"><strong>📂 GitHub Repository</strong></a>
+        <a href="https://heyshahid.github.io/meta-andromeda-calculator/"><strong>Launch Live Web App</strong></a> &nbsp;|&nbsp;
+        <a href="https://github.com/heyshahid/meta-andromeda-calculator"><strong>GitHub Repository</strong></a>
       </p>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <p><strong>Looking for my agency case studies and full portfolio?</strong> &nbsp; 👉 &nbsp; <a href="https://byshahid.vercel.app/"><strong>Visit byshahid.vercel.app</strong></a></p>
+  <p><strong>Looking for my agency case studies and full portfolio?</strong> &nbsp; | &nbsp; <a href="https://byshahid.vercel.app/"><strong>Visit byshahid.vercel.app</strong></a></p>
 </div>
 
 ---
 
-### ⚡ Core Competencies & Capabilities
+### Core Competencies & Capabilities
 
 ```yaml
 Positioning & Paid Acquisition:
@@ -90,7 +96,7 @@ Operations & Pipeline Infrastructure:
 
 ---
 
-### 📊 GitHub Activity & Streak
+### GitHub Activity & Streak
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=heyshahid&theme=transparent&border=334155&fire=F97316&ring=F97316&currStreakLabel=F97316" alt="Shahid Akram GitHub Streak" />
