@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/header-banner.svg" alt="Shahid Akram - Level 99 Performance Media Architect & Systems Lead" width="100%" />
+  <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/banner.jpg" alt="Shahid Akram - Positioning Architecture · Conversion Systems · Outbound Pipelines" width="100%" />
 </div>
 
 <div align="center">
@@ -14,17 +14,28 @@
 
 ---
 
-### ⚔️ Choose Your Quest: Featured Production Systems
+### 🏛️ Executive Positioning
+
+> **Positioning Architecture · Conversion Systems · Outbound Pipelines**  
+> I engineer performance acquisition funnels and build custom web applications that streamline high-ticket business operations. Rather than relying on fragile spreadsheets, I build resilient systems that track media spend, calculate project takeoffs, and generate predictable pipeline growth.
+
+- 🎯 **Acquisition Architecture:** Performance media scaling, Meta Ads, Andromeda scaling models, and funnel CRO.
+- ⚙️ **Operational Software:** Mobile-first Progressive Web Apps (PWAs), serverless automation & Python tooling.
+- 🌐 **Global Reach:** Serving brands, agencies, and general contractors across the US, UK, UAE, and APAC.
+
+---
+
+### 🛠️ Featured Production Systems & Open-Source Tools
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🏗️ <a href="https://heyshahid.github.io/buildestimate-app/">BuildEstimate Pro</a></h3>
-      <p><em>Mobile-First Construction Takeoff &amp; Contractor Bid Suite (PWA)</em></p>
+      <p><em>Mobile-First Construction Material Takeoff &amp; Contractor Bid Suite (PWA)</em></p>
       <p>An installable web application engineered for General Contractors, Project Managers, and Construction VAs to calculate on-site material takeoffs and export formal 1-page PDF proposals.</p>
       <ul>
         <li><strong>Concrete &amp; Slabs:</strong> Instant cubic yards, ready-mix truck counts &amp; rebar grid specs.</li>
-        <li><strong>Framing &amp; Drywall:</strong> Stud spacing, 16ft plates &amp; drywall sheet deductions.</li>
+        <li><strong>Framing &amp; Drywall:</strong> Stud spacing, plate linear footage &amp; drywall sheet deductions.</li>
         <li><strong>1-Page Bid Proposal:</strong> Official client-ready PDF quote with signature block.</li>
       </ul>
       <p>
@@ -34,12 +45,12 @@
     </td>
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://byshahid.vercel.app/">Shahid Akram – Agency Portfolio</a></h3>
-      <p><em>Performance Marketing &amp; Systems Architecture Hub</em></p>
+      <p><em>Executive Portfolio &amp; Direct Acquisition Engine</em></p>
       <p>High-speed, responsive agency portfolio presenting growth frameworks, published newsletters, paid ad case studies, and client delivery workflows.</p>
       <ul>
         <li><strong>Performance Stack:</strong> Pure modern responsive architecture.</li>
         <li><strong>Content Syndication:</strong> Integrated with Substack &amp; Medium publications.</li>
-        <li><strong>Direct Conversion:</strong> Streamlined consultation &amp; booking funnels.</li>
+        <li><strong>Conversion Focus:</strong> Streamlined consultation &amp; booking funnels.</li>
       </ul>
       <p>
         <a href="https://byshahid.vercel.app/"><strong>🌐 Visit Portfolio Website</strong></a>
@@ -50,10 +61,10 @@
 
 ---
 
-### 🛡️ Character Class & Technical Arsenal
+### ⚡ Core Competencies & Capabilities
 
 ```yaml
-Growth & Paid Acquisition:
+Positioning & Paid Acquisition:
   - Meta Ads Manager (Facebook & Instagram)
   - Andromeda Media Scaling & Break-Even Modeling
   - Funnel Conversion Rate Optimization (CRO)
@@ -65,7 +76,7 @@ Web & System Engineering:
   - Python Automation, Web Scraping & REST APIs
   - Git Version Control & GitHub Actions CI/CD
 
-Operations & Project Management:
+Operations & Pipeline Infrastructure:
   - Construction Material Takeoffs & Contractor Bidding
   - Notion, ClickUp & Asana Workflow Automation
   - High-Ticket Remote Operations & Client Delivery
@@ -73,10 +84,10 @@ Operations & Project Management:
 
 ---
 
-### 📊 GitHub Activity & Level Progress
+### 📊 GitHub Activity & Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=heyshahid&theme=tokyonight&background=060814&border=334155&fire=F59E0B&ring=F59E0B&currStreakLabel=F59E0B" alt="Shahid Akram GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=heyshahid&theme=transparent&border=334155&fire=F97316&ring=F97316&currStreakLabel=F97316" alt="Shahid Akram GitHub Streak" />
 </div>
 
 ---
@@ -84,6 +95,6 @@ Operations & Project Management:
 <div align="center">
   <p><strong>Looking to scale an ad campaign, develop a custom workflow tool, or hire an operations lead?</strong></p>
   <a href="mailto:heyshahidakram@gmail.com">
-    <img src="https://img.shields.io/badge/Get_In_Touch-Start_a_Project-F59E0B?style=for-the-badge&logoColor=black" alt="Get in Touch" />
+    <img src="https://img.shields.io/badge/Get_In_Touch-Start_a_Project-F97316?style=for-the-badge&logoColor=black" alt="Get in Touch" />
   </a>
 </div>
