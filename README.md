@@ -49,19 +49,19 @@
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/andromeda-logo.png" width="30" height="30" align="absmiddle" alt="Andromeda ROAS Logo" />
-        <a href="https://heyshahid.github.io/meta-andromeda-calculator/">Meta Andromeda ROAS Calculator</a>
+        <img src="https://raw.githubusercontent.com/heyshahid/heyshahid/main/andromeda-logo.png" width="30" height="30" align="absmiddle" alt="Open MarketingOps Logo" />
+        <a href="https://heyshahid.github.io/open-marketingops/">Open MarketingOps</a>
       </h3>
-      <p><em>Precision Break-Even ROAS, Max CAC &amp; Ad Scaling Engine (PWA)</em></p>
-      <p>An installable web app for media buyers &amp; e-commerce founders to calculate true unit economics, avoid Meta algorithm learning phase resets, and model safe daily budget growth.</p>
+      <p><em>Enterprise Marketing Analytics &amp; Campaign Optimization Platform (Next.js &amp; PWA)</em></p>
+      <p>Production-grade open-source intelligence suite for media buyers and founders to calculate deterministic unit economics, avoid Meta algorithm learning phase resets, and model safe daily budget growth.</p>
       <ul>
-        <li><strong>True Unit Economics:</strong> Net margins factoring COGS, shipping, payment fees &amp; returns.</li>
-        <li><strong>Andromeda Scaling Engine:</strong> Safe +15% to +20% compounding steps with 70/20/10 split.</li>
-        <li><strong>1-Page Media Plan PDF:</strong> Client-ready executive audit &amp; target profit roadmap.</li>
+        <li><strong>16 Deterministic Calculators:</strong> ROAS, Break-Even ROAS, CAC, LTV &amp; Marketing Funnels.</li>
+        <li><strong>Scaling &amp; Creative Intelligence:</strong> Anti-learning-reset compounding engine &amp; 3-sec hook rate analytics.</li>
+        <li><strong>CSV Ingestion &amp; PDF Audits:</strong> 4-step multi-channel CSV wizard &amp; 1-page executive PDF proposals.</li>
       </ul>
       <p>
-        <a href="https://heyshahid.github.io/meta-andromeda-calculator/"><strong>Launch Live Web App</strong></a> &nbsp;|&nbsp;
-        <a href="https://github.com/heyshahid/meta-andromeda-calculator"><strong>GitHub Repository</strong></a>
+        <a href="https://heyshahid.github.io/open-marketingops/"><strong>Launch Live Web App</strong></a> &nbsp;|&nbsp;
+        <a href="https://github.com/heyshahid/open-marketingops"><strong>GitHub Repository</strong></a>
       </p>
     </td>
   </tr>
